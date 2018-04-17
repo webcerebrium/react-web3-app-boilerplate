@@ -23,13 +23,12 @@ const Header = (props) => {
       <nav>
         <ul>
           <li>
-            <NavLink activeClassName='active' to={`/${map}/me`}>
-              Me
+            <NavLink activeClassName='active' to={`/me`}>
+              My Profile
             </NavLink>
           </li>
           <li style={{ flex: 1 }}></li>
-          <li><NavLink activeClassName='active' to={`/about`}>How to Play</NavLink></li>
-	  <li>&nbsp; &nbsp; Map: &nbsp; &nbsp; </li>
+          <li><NavLink activeClassName='active' to={`/about/100`}>How to Play</NavLink></li>
         </ul>
       </nav>
     </div>
